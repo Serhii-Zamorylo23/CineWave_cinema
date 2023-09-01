@@ -90,4 +90,45 @@ body {
   font-weight: 400;
   font-size: 15px;
   color: white;
+}
+
+@media screen and (max-width: 426px) {
+  .head-cinema {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 31.7px;
+  }
+  .head-cinema_logo_title {
+    display: none;
+  }
+  .head-cinema_nav {
+    display: none;
+  }
+  .head-cinema_img {
+    display: none;
+  }
+  .main-cinema {
+    width: 100%;
+  }
+  .main-cinema_title {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    color: rgb(162, 160, 160);
+    margin-bottom: 66px;
+  }
+  .main-cinema_img {
+    display: none;
+  }
+  .main-cinema_btn {
+    width: 150px;
+    height: 40px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  .footer-cinema_logo_name {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */

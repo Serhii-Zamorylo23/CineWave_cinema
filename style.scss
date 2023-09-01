@@ -87,3 +87,49 @@ body{
         }
     }
 }
+@media screen and (max-width:426px) {
+    .head-cinema{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 31.7px;
+        &_logo{
+            &_title{
+                display: none;
+            }
+        }
+        &_nav{
+            display: none;
+        }
+        &_img{
+            display: none;
+        }
+    }
+    .main-cinema{
+        width: 100%;
+        &_title{
+            font-family: 'Raleway', sans-serif;
+            font-weight: 400;
+            font-size: 35px;
+            color: rgb(162, 160, 160);
+            margin-bottom: 66px;
+        }
+        &_img{
+            display: none;
+        }
+        &_btn{
+            width: 150px;
+            height: 40px;
+            font-family: 'Raleway', sans-serif;
+            font-weight: 400;
+            font-size: 20px;
+        }
+    }
+    .footer-cinema{
+        &_logo{
+            &_name{
+                display: none;
+            }
+        }
+    }
+}
